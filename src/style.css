@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #05060f;
+}
+canvas {
+  display: block;
+  cursor: grab;
+}
+canvas:active {
+  cursor: grabbing;
+}
+#hud {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  padding: 8px 12px;
+  font: 13px/1.5 system-ui, sans-serif;
+  color: #e8ecff;
+  background: rgba(10, 12, 30, 0.55);
+  border-radius: 6px;
+  pointer-events: none;
+  user-select: none;
+}
